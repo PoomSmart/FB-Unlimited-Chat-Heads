@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>Facebook Unlimited Chat Heads</string>
+    <key>entry</key>
+    <dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>FBCH.png</string>
+      <key>label</key>
+      <string>Facebook Unlimited Chat Heads</string>
+    </dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Options</string>
+        <key>footerText</key>
+        <string>(For iPhone/iPod Users) Landscape enabled is a good choice if you have more than 5 chat heads in your current iPhone view at the top so that you can have more than 5 chat heads in Landscape.</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.PS.FBUnlimitedChatHeads</string>
+        <key>key</key>
+        <string>FBCHEnabled</string>
+        <key>label</key>
+        <string>Unlimited Chat Heads</string>
+        <key>PostNotification</key>
+        <string>com.PS.FBUnlimitedChatHeads.settingschanged</string>
+      </dict>
+       <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.PS.FBUnlimitedChatHeads</string>
+        <key>key</key>
+        <string>FBLCEnabled</string>
+        <key>label</key>
+        <string>Facebook Landscape</string>
+        <key>PostNotification</key>
+        <string>com.PS.FBUnlimitedChatHeads.settingschanged</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>© 2013 Thuchapol Unprasert
+(@PoomSmart)</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

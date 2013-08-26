@@ -1,0 +1,9 @@
+Package: org.thebigboss.FBUnlimitedChatHeads
+Name: Facebook Unlimited Chat Heads
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0)
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Removed the Chat Heads count limited in Facebook version 6.0+
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
