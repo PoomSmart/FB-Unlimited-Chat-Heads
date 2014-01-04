@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>title</key>
-    <string>Facebook Unlimited Chat Heads</string>
+    <string>FB Unlimited Chat Heads</string>
     <key>entry</key>
     <dict>
       <key>cell</key>
@@ -11,7 +11,7 @@
       <key>icon</key>
       <string>FBCH.png</string>
       <key>label</key>
-      <string>Facebook Unlimited Chat Heads</string>
+      <string>FB Unlimited Chat Heads</string>
     </dict>
     <key>items</key>
     <array>
@@ -55,7 +55,7 @@
         <key>cell</key>
         <string>PSGroupCell</string>
         <key>footerText</key>
-        <string>© 2013 Thuchapol Unprasert
+        <string>© 2013 - 2014 Thuchapol Unprasert
 (@PoomSmart)</string>
       </dict>
     </array>
