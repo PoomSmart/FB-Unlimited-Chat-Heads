@@ -1,4 +1,4 @@
-TARGET_IPHONEOS_DEPLOYMENT_VERSION = 5.0
+export ARCHS = armv7 armv7s arm64
 
 include theos/makefiles/common.mk
 
